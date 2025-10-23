@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý thông tin user</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2>Quản lý thông tin user</h2>
+        <div>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email Address">
+            <input type="date" id="birthdate">
+            <button id="addRow">Add Row</button>
+        </div>
+
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Birthdate</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <button id="deleteRow">Delete Row</button>
+    </div>
+
+    <!-- Nạp thư viện và file JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
